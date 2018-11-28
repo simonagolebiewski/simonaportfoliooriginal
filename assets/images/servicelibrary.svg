@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="592" height="344" viewBox="0 0 592 344">
+  <defs>
+    <linearGradient id="servicelibrary-a" x1="50%" x2="50%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#02A0D8"/>
+      <stop offset="100%" stop-color="#0167B0"/>
+    </linearGradient>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <rect width="592" height="344" fill="#F3F3F3"/>
+    <rect width="120" height="344" fill="#202225"/>
+    <path fill="#E3E7ED" fill-rule="nonzero" d="M20 53L84 53 84 57 20 57 20 53zM20 69L74 69 74 73 20 73 20 69zM20 265L68 265 68 269 20 269 20 265zM20 281L82 281 82 285 20 285 20 281z"/>
+    <rect width="80" height="20" x="20" y="95" fill="#E3E7ED" rx="4"/>
+    <g transform="translate(20 127)">
+      <rect width="80" height="20" fill="#E3E7ED" rx="4"/>
+      <polyline stroke="#202225" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" points="0 .5 5 5.5 10 .5" transform="translate(65 7)"/>
+    </g>
+    <g transform="translate(20 159)">
+      <rect width="80" height="20" fill="#E3E7ED" rx="4"/>
+      <polyline stroke="#202225" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" points="0 .5 5 5.5 10 .5" transform="translate(65 7)"/>
+    </g>
+    <g transform="translate(20 191)">
+      <rect width="80" height="20" fill="#E3E7ED" rx="4"/>
+      <polyline stroke="#202225" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" points="0 .5 5 5.5 10 .5" transform="translate(65 7)"/>
+    </g>
+    <g transform="translate(20 223)">
+      <rect width="80" height="20" fill="#E3E7ED" rx="4"/>
+      <polyline stroke="#202225" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" points="0 .5 5 5.5 10 .5" transform="translate(65 7)"/>
+    </g>
+    <g stroke="#202225" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" transform="translate(85 100)">
+      <circle cx="4.444" cy="4.444" r="4.444"/>
+      <path d="M10,10 L7.58333333,7.58333333"/>
+    </g>
+    <circle cx="25" cy="312" r="5" fill="#008002"/>
+    <circle cx="47" cy="312" r="5" fill="#008002"/>
+    <rect width="472" height="50" x="120" fill="#0167B0"/>
+    <rect width="472" height="30" x="120" y="45" fill="#FFF"/>
+    <rect width="14" height="14" x="130" y="53" fill="#D8D8D8" rx="2"/>
+    <rect width="14" height="14" x="152" y="53" fill="#D8D8D8" rx="2"/>
+    <rect width="100" height="18" x="462" y="51" fill="#F3F3F3" rx="2"/>
+    <g stroke="#202225" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" transform="translate(548 55)">
+      <circle cx="4.444" cy="4.444" r="4.444"/>
+      <path d="M10,10 L7.58333333,7.58333333"/>
+    </g>
+    <rect width="120" height="269" x="120" y="75" fill="#FAFAFA"/>
+    <rect width="89" height="10" x="130" y="91" fill="#D8D8D8" fill-rule="nonzero" rx="2.036"/>
+    <rect width="70" height="10" x="130" y="112" fill="#D8D8D8" fill-rule="nonzero" rx="2.036"/>
+    <rect width="70" height="10" x="130" y="175" fill="#D8D8D8" fill-rule="nonzero" rx="2.036"/>
+    <rect width="62" height="10" x="130" y="196" fill="#D8D8D8" fill-rule="nonzero" rx="2.036"/>
+    <rect width="73" height="10" x="130" y="154" fill="#D8D8D8" fill-rule="nonzero" rx="2.036"/>
+    <rect width="84" height="10" x="130" y="133" fill="#D8D8D8" fill-rule="nonzero" rx="2.036"/>
+    <rect width="151" height="80" x="270" y="105" fill="#FFF"/>
+    <rect width="110" height="10" x="286" y="121" fill="#0167B0" fill-rule="nonzero" rx="2.036"/>
+    <rect width="80" height="6" x="286" y="143" fill="#E3E7ED" fill-rule="nonzero" rx="2.036"/>
+    <rect width="96" height="6" x="286" y="163" fill="#E3E7ED" fill-rule="nonzero" rx="2.036"/>
+    <rect width="121" height="239" x="441" y="105" fill="#FFF"/>
+    <rect width="151" height="162" x="270" y="205" fill="#FFF"/>
+    <rect width="40" height="10" x="457" y="121" fill="#0167B0" fill-rule="nonzero" rx="2.036"/>
+    <rect width="89" height="50" x="457" y="151" fill="#1BBE60" fill-rule="nonzero" rx="2.036"/>
+    <polyline stroke="#FFF" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" points="16 0 5 11 0 6" transform="translate(472 167)"/>
+    <rect width="89" height="50" x="457" y="221" fill="#1BBE60" fill-rule="nonzero" rx="2.036"/>
+    <polyline stroke="#FFF" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" points="488 237 477 248 472 243"/>
+    <rect width="90" height="10" x="286" y="221" fill="#0167B0" fill-rule="nonzero" rx="2.036"/>
+    <polyline stroke="#DF9CA1" stroke-width="2" points="301.667 271.051 283.815 271.051 283.815 293.648 301.667 293.648 301.667 318.968 283.815 318.968 283.815 332.04 331.284 332.04"/>
+    <path stroke="#61A7C4" stroke-width="2" d="M338.433637 259.404409L356.738718 293.693133M335.357053 284.471866L356.974595 294.444885M336.436318 309.50708L356.202479 294.455066M335.828808 333.113455L356.608052 293.940888M384.183914 267.566167L361.968837 293.441431M385.169311 293.987567L362.266907 293.987567"/>
+    <rect width="22" height="18" x="294" y="261" fill="url(#servicelibrary-a)"/>
+    <rect width="22" height="18" x="376" y="261" fill="url(#servicelibrary-a)"/>
+    <rect width="20" height="57" x="350" y="265" fill="#4D4C4D" rx="3"/>
+    <rect width="22" height="18" x="376" y="285" fill="url(#servicelibrary-a)"/>
+    <rect width="22" height="18" x="322" y="251" fill="url(#servicelibrary-a)"/>
+    <rect width="22" height="18" x="322" y="275" fill="url(#servicelibrary-a)"/>
+    <rect width="22" height="18" x="322" y="299" fill="url(#servicelibrary-a)"/>
+    <rect width="22" height="18" x="322" y="323" fill="url(#servicelibrary-a)"/>
+    <rect width="22" height="18" x="294" y="285" fill="url(#servicelibrary-a)"/>
+    <rect width="22" height="18" x="294" y="309" fill="url(#servicelibrary-a)"/>
+  </g>
+</svg>
