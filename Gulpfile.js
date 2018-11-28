@@ -1,26 +1,3 @@
-// var gulp = require('gulp');
-//     minify = require('gulp-clean-css')
-//     watch = require('gulp-watch');
-//     uglify = require('gulp-uglify'),
-// 		concat = require('gulp-concat'),
-// 		notify = require('gulp-notify'),
-//     sass = require('gulp-sass');
-//
-// gulp.task('styles', function() {
-//     gulp.src('sass/**/*.scss')
-//         .pipe(sass().on('error', notify.onError("SCSS compilation error"))
-//         .pipe(gulp.dest('./css/'))
-//         .pipe(notify("Stylesheets Compiled Successfully")));
-//         return;
-// });
-//
-// //Watch task
-// gulp.task('default',function() {
-//     gulp.watch('sass/**/*.scss',['styles']);
-// });
-
-
-
 var gulp = require('gulp');
     minify = require('gulp-clean-css')
     watch = require('gulp-watch');
@@ -43,4 +20,10 @@ gulp.task('styles', function() {
 //Watch task
 gulp.task('default',function() {
     gulp.watch(sassFiles,['styles']);
+});
+
+var runSequence = require('run-sequence');
+
+gulp.task('build', function(callback) {
+  runSequence('sass', 'images', 'fonts', callback);
 });
