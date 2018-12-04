@@ -381,6 +381,9 @@ body {
   .main-block__intro, .main-block__movie-vue, .main-block__contact, .main-block__remote-dir, .main-block__fca, .main-block__marketing {
     margin-bottom: 30px;
     color: #333333; }
+    @media only screen and (max-width: 425px) {
+      .main-block__intro, .main-block__movie-vue, .main-block__contact, .main-block__remote-dir, .main-block__fca, .main-block__marketing {
+        margin-bottom: 20px; } }
     .main-block__intro--header span, .main-block__movie-vue--header span, .main-block__contact--header span, .main-block__remote-dir--header span, .main-block__fca--header span, .main-block__marketing--header span {
       color: #333333 !important;
       font-weight: bold;

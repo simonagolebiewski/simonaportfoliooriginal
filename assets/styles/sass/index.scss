@@ -449,6 +449,9 @@ body {
   &__intro, &__movie-vue, &__contact, &__remote-dir, &__fca, &__marketing {
     margin-bottom: 30px;
     color: #333333;
+    @media only screen and (max-width: 425px) {
+      margin-bottom: 20px;
+    }
       &--header{
         span {
           color: #333333 !important;
