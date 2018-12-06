@@ -283,7 +283,7 @@ body {
     .main-block {
       width: 90%; } }
   .main-block__frameworks-container {
-    border: 2px solid #333333;
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.1), 0 2px 4px 0 rgba(0, 0, 0, 0.1);
     padding: 5px;
     display: inline-block;
     margin-bottom: 5px; }
@@ -579,3 +579,11 @@ body {
     width: 30px; }
   .contact-info-small-screen .contact-icons .email:hover:before {
     background-image: url("../../images/email-highlight.svg"); }
+
+.contact-button {
+  font-size: 18px;
+  color: #333333;
+  text-decoration: none;
+  padding: 2px;
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.1), 0 2px 4px 0 rgba(0, 0, 0, 0.1);
+  cursor: pointer; }
