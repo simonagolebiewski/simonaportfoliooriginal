@@ -144,7 +144,7 @@ body {
     .screen-info .contact-icons .github:hover:before {
       background-image: url("../../images/github-highlight.svg"); }
     .screen-info .contact-icons .simona {
-      background: url("../../images/simona-pixelated.svg");
+      background: url("../../images/pixelated2x.png");
       background-size: 75px;
       height: 75px;
       width: 75px;
@@ -538,7 +538,7 @@ body {
   .contact-info-small-screen .contact-icons .github:hover:before {
     background-image: url("../../images/github-highlight.svg"); }
   .contact-info-small-screen .contact-icons .simona {
-    background: url("../../images/simona-pixelated.svg");
+    background: url("../../images/pixelated2x.png");
     background-size: 75px;
     height: 75px;
     width: 75px;
