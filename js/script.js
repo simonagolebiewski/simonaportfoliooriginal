@@ -9,11 +9,23 @@ $(".background").scroll(function() {
           $(screenMask).show();
           $("#movie-vue, #contact, #remote-dir, #fca, #marketing").hide();
           $(this).addClass('highlight-blue');
-          $(status).removeClass('remote-dot');
+          $(status).removeClass('fca-dot');
           $(status).addClass('blue-dot');
         } else {
           $(this).removeClass('highlight-blue');
           $(status).removeClass('blue-dot');
+        }
+    });
+    $('.main-block__fca span').each(function() {
+        if ($(status).offset().top >= $(this).offset().top && $(status).offset().top < ($(this).offset().top + $(this).outerHeight(true))){
+          $(screenMask).show();
+          $("#simona-golebiewski").hide();
+          $("#contact, #remote-dir, #movie-vue, #marketing").hide();
+          $(this).addClass('highlight-fca');
+          $(status).removeClass('remote-dot');
+          $(status).addClass('fca-dot');
+        } else {
+          $(this).removeClass('highlight-fca');
         }
     });
     $('.main-block__remote-dir span').each(function() {
@@ -22,7 +34,7 @@ $(".background").scroll(function() {
           $("#simona-golebiewski").hide();
           $("#contact, #movie-vue, #fca, #marketing").hide();
           $(this).addClass('highlight-remote');
-          $(status).removeClass('movie-vue-dot');
+          $(status).removeClass('movie-vue-dot fca-dot');
           $(status).addClass('remote-dot');
         } else {
           $(this).removeClass('highlight-remote');
@@ -34,31 +46,31 @@ $(".background").scroll(function() {
           $("#simona-golebiewski").hide();
           $("#contact, #remote-dir, #fca, #marketing").hide();
           $(this).addClass('highlight-movie-vue');
-          $(status).removeClass('fca-dot');
+          $(status).removeClass('marketing-dot remote-dot');
           $(status).addClass('movie-vue-dot');
         } else {
           $(this).removeClass('highlight-movie-vue');
         }
     });
-    $('.main-block__fca span').each(function() {
-        if ($(status).offset().top >= $(this).offset().top && $(status).offset().top < ($(this).offset().top + $(this).outerHeight(true))){
-          $(screenMask).show();
-          $("#simona-golebiewski").hide();
-          $("#contact, #remote-dir, #movie-vue, #marketing").hide();
-          $(this).addClass('highlight-fca');
-          $(status).removeClass('marketing-dot');
-          $(status).addClass('fca-dot');
-        } else {
-          $(this).removeClass('highlight-fca');
-        }
-    });
+    // $('.main-block__fca span').each(function() {
+    //     if ($(status).offset().top >= $(this).offset().top && $(status).offset().top < ($(this).offset().top + $(this).outerHeight(true))){
+    //       $(screenMask).show();
+    //       $("#simona-golebiewski").hide();
+    //       $("#contact, #remote-dir, #movie-vue, #marketing").hide();
+    //       $(this).addClass('highlight-fca');
+    //       $(status).removeClass('marketing-dot');
+    //       $(status).addClass('fca-dot');
+    //     } else {
+    //       $(this).removeClass('highlight-fca');
+    //     }
+    // });
     $('.main-block__marketing span').each(function() {
         if ($(status).offset().top >= $(this).offset().top && $(status).offset().top < ($(this).offset().top + $(this).outerHeight(true))){
           $(screenMask).show();
           $("#simona-golebiewski").hide();
           $("#contact, #remote-dir, #movie-vue, #fca").hide();
           $(this).addClass('highlight-marketing');
-          $(status).removeClass('contact-dot');
+          $(status).removeClass('contact-dot movie-vue-dot');
           $(status).addClass('marketing-dot');
         } else {
           $(this).removeClass('highlight-marketing');
@@ -70,6 +82,7 @@ $(".background").scroll(function() {
           $("#movie-vue, #simona-golebiewski, #remote-dir, #fca, #marketing").hide();
           $(this).addClass('highlight-contact');
           $(status).addClass('contact-dot');
+          $(status).removeClass('marketing-dot');
         } else {
           $(this).removeClass('highlight-contact');
         }
