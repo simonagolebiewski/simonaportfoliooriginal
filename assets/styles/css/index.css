@@ -34,6 +34,9 @@ body {
   width: 100%;
   height: 100vh; }
 
+* {
+  -webkit-overflow-scrolling: touch; }
+
 .background {
   background: url("../../images/slant1.svg");
   background-size: cover;
