@@ -270,8 +270,8 @@ body {
         }
         a.view-project {
           position: absolute;
-          right: 10px;
-          top: 10px;
+          right: 0px;
+          top: -20px;
           color: #231f20;
           display: inline-block;
           font-weight: bold;
@@ -350,10 +350,13 @@ body {
   }
 
   &__frameworks-container {
-    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.1), 0 2px 4px 0 rgba(0, 0, 0, 0.1);
-    padding: 5px;
     display: inline-block;
+    font-family: 'HelveticaNeue';
+    background: #333333;
     margin-bottom: 5px;
+    color: white;
+    font-weight: bold;
+    border-radius: 4px;
     @media only screen and (max-width: 1270px) {
       padding: 2px;
     }
@@ -364,7 +367,7 @@ body {
       display: inline-block;
       font-size: 14px;
       vertical-align: middle;
-      text-transform: uppercase;
+      padding: 5px;
       @media only screen and (max-width: 425px) {
         font-size: 12px;
       }
@@ -535,61 +538,61 @@ body {
   -o-transition: background-color 0.1s linear;
 }
 .highlight-remote {
- background: rgba(150, 68, 237, 0.1);
+ background: rgba(255, 116, 123, 0.1);
  -webkit-transition:background-color 0.3s linear;
  -moz-transition: background-color 0.3s linear;
  -o-transition: background-color 0.3s linear;
 }
 .remote-dot {
-  background: #9644ED;
+  background: #FF747B;
   -webkit-transition:background-color 0.1s linear;
   -moz-transition: background-color 0.1s linear;
   -o-transition: background-color 0.1s linear;
 }
 .highlight-movie-vue {
- background: rgba(77, 106, 235, 0.1);
+ background: rgba(0, 162, 230, 0.1);
  -webkit-transition:background-color 0.3s linear;
  -moz-transition: background-color 0.3s linear;
  -o-transition: background-color 0.3s linear;
 }
 .movie-vue-dot {
-  background: #4D6AEB;
+  background: #00A2E6;
   -webkit-transition:background-color 0.1s linear;
   -moz-transition: background-color 0.1s linear;
   -o-transition: background-color 0.1s linear;
 }
 .highlight-fca {
-  background: rgba(0, 103, 177, 0.1);
+  background: rgba(1, 103, 176, 0.1);
   -webkit-transition:background-color 0.3s linear;
   -moz-transition: background-color 0.3s linear;
   -o-transition: background-color 0.3s linear;
 }
 .fca-dot {
-  background: #0067b1;
+  background: #0067b0;
   -webkit-transition:background-color 0.1s linear;
   -moz-transition: background-color 0.1s linear;
   -o-transition: background-color 0.1s linear;
 }
 .highlight-marketing {
-  background: rgba(293, 78, 72, 0.1);
+  background: rgba(249, 188, 250, 0.14);
   -webkit-transition:background-color 0.3s linear;
   -moz-transition: background-color 0.3s linear;
   -o-transition: background-color 0.3s linear;
 }
 .marketing-dot {
-  background: #A628B7;
+  background: #F9BCFA;
   -webkit-transition:background-color 0.1s linear;
   -moz-transition: background-color 0.1s linear;
   -o-transition: background-color 0.1s linear;
 }
 .highlight-contact {
-  background: rgba(255, 250, 15, 0.2);
+  background: #FDF3E6;
   -webkit-transition:background-color 0.3s linear;
   -moz-transition: background-color 0.3s linear;
   -o-transition: background-color 0.3s linear;
 }
 .contact-dot {
-  background: #FFFA0F;
+  background: #f1c40f;
   -webkit-transition:background-color 0.1s linear;
   -moz-transition: background-color 0.1s linear;
   -o-transition: background-color 0.1s linear;
@@ -711,10 +714,17 @@ body {
   }
 }
 .contact-button {
-    font-size: 18px;
-    color: #333333;
     text-decoration: none;
-    padding: 2px;
-    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.1), 0 2px 4px 0 rgba(0, 0, 0, 0.1);
     cursor: pointer;
+    color: #231f20;
+    display: inline-block;
+    font-weight: bold;
+    font-size: 16px;
+    font-family: Helvetica Neue,"nimbus-sans",Helvetica,Arial,sans-serif;
+    border-bottom: 3px solid #231f20;
+    padding-bottom: 4px;
+    transition: border .3s;
+    &:hover {
+      border-bottom: 3px solid #F1C10F;
+    }
 }
