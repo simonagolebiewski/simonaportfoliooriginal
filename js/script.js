@@ -101,10 +101,12 @@ $(window).on("load, resize", function() {
     $(".title-text").css("display", "none");
     $(".title-link").css({"display": "inline-block", "margin-bottom": "0"});
     $(".contact-info-small-screen").css("display", "block");
+    $(".resume-mobile").css("display", "inline-block");
     $(".contact-info-large-screen").css("display", "none");
   } else if ($(window).width() > 900){
     $(".title-text").css({"display": "inline-block", "margin-bottom": "0"});
     $(".title-link").css("display", "none");
+    $(".resume-mobile").css("display", "none");
     $(".contact-info-small-screen").css("display", "none");
     $(".contact-info-large-screen").css("display", "block");
   }
@@ -113,11 +115,13 @@ if ($(window).width() <= 900) {
   $(".title-text").css("display", "none");
   $(".title-link").css({"display": "inline-block", "margin-bottom": "0"});
   $(".contact-info-small-screen").css("display", "block");
+  $(".resume-mobile").css("display", "inline-block");
   $(".contact-info-large-screen").css("display", "none");
 } else if ($(window).width() > 900){
   $(".title-text").css({"display": "inline-block", "margin-bottom": "0"});
   $(".title-link").css("display", "none");
   $(".contact-info-small-screen").css("display", "none");
+  $(".resume-mobile").css("display", "none");
   $(".contact-info-large-screen").css("display", "block");
 }
 

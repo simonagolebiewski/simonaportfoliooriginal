@@ -690,7 +690,7 @@ body {
     }
   }
 }
-.contact-button {
+.contact-button, .resume-mobile {
     text-decoration: none;
     cursor: pointer;
     color: #231f20;
@@ -704,4 +704,8 @@ body {
     &:hover {
       border-bottom: 3px solid #F1C10F;
     }
+}
+
+.resume-mobile {
+  margin-left: 10px;
 }

@@ -588,7 +588,7 @@ body {
   .contact-info-small-screen .contact-icons .email:hover:before {
     background-image: url("../../images/email-highlight.svg"); }
 
-.contact-button {
+.contact-button, .resume-mobile {
   text-decoration: none;
   cursor: pointer;
   color: #231f20;
@@ -599,5 +599,8 @@ body {
   border-bottom: 3px solid #231f20;
   padding-bottom: 4px;
   transition: border .3s; }
-  .contact-button:hover {
+  .contact-button:hover, .resume-mobile:hover {
     border-bottom: 3px solid #F1C10F; }
+
+.resume-mobile {
+  margin-left: 10px; }
