@@ -7,7 +7,7 @@ $(".background").scroll(function() {
     $('.main-block__intro span').each(function() {
         if ($(status).offset().top >= $(this).offset().top && $(status).offset().top < ($(this).offset().top + $(this).outerHeight(true))){
           $(screenMask).show();
-          $("#movie-vue, #contact, #remote-dir, #fca, #marketing").hide();
+          $("#movie-vue, #contact, #remote-dir, #fca, #marketing, #daily-nclex").hide();
           $(this).addClass('highlight-blue');
           $(status).removeClass('fca-dot');
           $(status).addClass('blue-dot');
@@ -20,7 +20,7 @@ $(".background").scroll(function() {
         if ($(status).offset().top >= $(this).offset().top && $(status).offset().top < ($(this).offset().top + $(this).outerHeight(true))){
           $(screenMask).show();
           $("#simona-golebiewski").hide();
-          $("#contact, #remote-dir, #movie-vue, #marketing").hide();
+          $("#contact, #remote-dir, #movie-vue, #marketing, #daily-nclex").hide();
           $(this).addClass('highlight-fca');
           $(status).removeClass('remote-dot');
           $(status).addClass('fca-dot');
@@ -32,7 +32,7 @@ $(".background").scroll(function() {
         if ($(status).offset().top >= $(this).offset().top && $(status).offset().top < ($(this).offset().top + $(this).outerHeight(true))){
           $(screenMask).show();
           $("#simona-golebiewski").hide();
-          $("#contact, #movie-vue, #fca, #marketing").hide();
+          $("#contact, #movie-vue, #fca, #marketing, #daily-nclex").hide();
           $(this).addClass('highlight-remote');
           $(status).removeClass('movie-vue-dot fca-dot');
           $(status).addClass('remote-dot');
@@ -40,11 +40,23 @@ $(".background").scroll(function() {
           $(this).removeClass('highlight-remote');
         }
     });
+    $('.main-block__daily-nclex span').each(function() {
+        if ($(status).offset().top >= $(this).offset().top && $(status).offset().top < ($(this).offset().top + $(this).outerHeight(true))){
+          $(screenMask).show();
+          $("#simona-golebiewski").hide();
+          $("#contact, #movie-vue, #fca, #marketing, #remote-dir").hide();
+          $(this).addClass('highlight-dailynclex');
+          $(status).removeClass('movie-vue-dot remote-dot');
+          $(status).addClass('dailynclex-dot');
+        } else {
+          $(this).removeClass('highlight-dailynclex');
+        }
+    });
     $('.main-block__movie-vue span').each(function() {
         if ($(status).offset().top >= $(this).offset().top && $(status).offset().top < ($(this).offset().top + $(this).outerHeight(true))){
           $(screenMask).show();
           $("#simona-golebiewski").hide();
-          $("#contact, #remote-dir, #fca, #marketing").hide();
+          $("#contact, #remote-dir, #fca, #marketing, #daily-nclex").hide();
           $(this).addClass('highlight-movie-vue');
           $(status).removeClass('marketing-dot remote-dot');
           $(status).addClass('movie-vue-dot');
@@ -52,23 +64,11 @@ $(".background").scroll(function() {
           $(this).removeClass('highlight-movie-vue');
         }
     });
-    // $('.main-block__fca span').each(function() {
-    //     if ($(status).offset().top >= $(this).offset().top && $(status).offset().top < ($(this).offset().top + $(this).outerHeight(true))){
-    //       $(screenMask).show();
-    //       $("#simona-golebiewski").hide();
-    //       $("#contact, #remote-dir, #movie-vue, #marketing").hide();
-    //       $(this).addClass('highlight-fca');
-    //       $(status).removeClass('marketing-dot');
-    //       $(status).addClass('fca-dot');
-    //     } else {
-    //       $(this).removeClass('highlight-fca');
-    //     }
-    // });
     $('.main-block__marketing span').each(function() {
         if ($(status).offset().top >= $(this).offset().top && $(status).offset().top < ($(this).offset().top + $(this).outerHeight(true))){
           $(screenMask).show();
           $("#simona-golebiewski").hide();
-          $("#contact, #remote-dir, #movie-vue, #fca").hide();
+          $("#contact, #remote-dir, #movie-vue, #fca, #daily-nclex").hide();
           $(this).addClass('highlight-marketing');
           $(status).removeClass('contact-dot movie-vue-dot');
           $(status).addClass('marketing-dot');
@@ -79,7 +79,7 @@ $(".background").scroll(function() {
     $('.main-block__contact span').each(function() {
         if ($(status).offset().top >= $(this).offset().top && $(status).offset().top < ($(this).offset().top + $(this).outerHeight(true))){
           $(screenMask).show();
-          $("#movie-vue, #simona-golebiewski, #remote-dir, #fca, #marketing").hide();
+          $("#movie-vue, #simona-golebiewski, #remote-dir, #fca, #marketing, #daily-nclex").hide();
           $(this).addClass('highlight-contact');
           $(status).addClass('contact-dot');
           $(status).removeClass('marketing-dot');
@@ -124,7 +124,3 @@ if ($(window).width() <= 900) {
   $(".resume-mobile").css("display", "none");
   $(".contact-info-large-screen").css("display", "block");
 }
-
-// if (navigator.userAgent.search("Safari") &gt; = 0) {
-//
-//     }

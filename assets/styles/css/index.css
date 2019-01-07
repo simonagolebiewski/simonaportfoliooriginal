@@ -370,13 +370,13 @@ body {
     display: inline-block; }
   .main-block__fca--header {
     margin-top: 50px; }
-  .main-block__intro, .main-block__movie-vue, .main-block__contact, .main-block__remote-dir, .main-block__fca, .main-block__marketing {
+  .main-block__intro, .main-block__movie-vue, .main-block__contact, .main-block__remote-dir, .main-block__fca, .main-block__marketing, .main-block__daily-nclex {
     margin-bottom: 30px;
     color: #333333; }
     @media only screen and (max-width: 425px) {
-      .main-block__intro, .main-block__movie-vue, .main-block__contact, .main-block__remote-dir, .main-block__fca, .main-block__marketing {
+      .main-block__intro, .main-block__movie-vue, .main-block__contact, .main-block__remote-dir, .main-block__fca, .main-block__marketing, .main-block__daily-nclex {
         margin-bottom: 20px; } }
-    .main-block__intro--header span, .main-block__movie-vue--header span, .main-block__contact--header span, .main-block__remote-dir--header span, .main-block__fca--header span, .main-block__marketing--header span {
+    .main-block__intro--header span, .main-block__movie-vue--header span, .main-block__contact--header span, .main-block__remote-dir--header span, .main-block__fca--header span, .main-block__marketing--header span, .main-block__daily-nclex--header span {
       color: #333333 !important;
       font-weight: bold;
       font-size: 34px !important;
@@ -384,12 +384,12 @@ body {
       margin-bottom: 28px;
       font-family: 'HelveticaNeue-Bold'; }
       @media only screen and (max-width: 1270px) {
-        .main-block__intro--header span, .main-block__movie-vue--header span, .main-block__contact--header span, .main-block__remote-dir--header span, .main-block__fca--header span, .main-block__marketing--header span {
+        .main-block__intro--header span, .main-block__movie-vue--header span, .main-block__contact--header span, .main-block__remote-dir--header span, .main-block__fca--header span, .main-block__marketing--header span, .main-block__daily-nclex--header span {
           font-size: 24px !important; } }
       @media only screen and (max-width: 425px) {
-        .main-block__intro--header span, .main-block__movie-vue--header span, .main-block__contact--header span, .main-block__remote-dir--header span, .main-block__fca--header span, .main-block__marketing--header span {
+        .main-block__intro--header span, .main-block__movie-vue--header span, .main-block__contact--header span, .main-block__remote-dir--header span, .main-block__fca--header span, .main-block__marketing--header span, .main-block__daily-nclex--header span {
           font-size: 18px !important; } }
-    .main-block__intro--header span a, .main-block__movie-vue--header span a, .main-block__contact--header span a, .main-block__remote-dir--header span a, .main-block__fca--header span a, .main-block__marketing--header span a {
+    .main-block__intro--header span a, .main-block__movie-vue--header span a, .main-block__contact--header span a, .main-block__remote-dir--header span a, .main-block__fca--header span a, .main-block__marketing--header span a, .main-block__daily-nclex--header span a {
       color: #333333 !important;
       font-weight: bold;
       font-size: 24px !important;
@@ -398,9 +398,9 @@ body {
       font-family: 'HelveticaNeue-Bold';
       text-decoration: none; }
       @media only screen and (max-width: 425px) {
-        .main-block__intro--header span a, .main-block__movie-vue--header span a, .main-block__contact--header span a, .main-block__remote-dir--header span a, .main-block__fca--header span a, .main-block__marketing--header span a {
+        .main-block__intro--header span a, .main-block__movie-vue--header span a, .main-block__contact--header span a, .main-block__remote-dir--header span a, .main-block__fca--header span a, .main-block__marketing--header span a, .main-block__daily-nclex--header span a {
           font-size: 18px !important; } }
-      .main-block__intro--header span a::after, .main-block__movie-vue--header span a::after, .main-block__contact--header span a::after, .main-block__remote-dir--header span a::after, .main-block__fca--header span a::after, .main-block__marketing--header span a::after {
+      .main-block__intro--header span a::after, .main-block__movie-vue--header span a::after, .main-block__contact--header span a::after, .main-block__remote-dir--header span a::after, .main-block__fca--header span a::after, .main-block__marketing--header span a::after, .main-block__daily-nclex--header span a::after {
         background-image: url("../../images/external_link_grey_dk.svg");
         background-size: cover;
         background-repeat: no-repeat;
@@ -413,7 +413,7 @@ body {
         right: 0;
         margin-left: 5px;
         top: 3px; }
-      .main-block__intro--header span a::after:hover, .main-block__movie-vue--header span a::after:hover, .main-block__contact--header span a::after:hover, .main-block__remote-dir--header span a::after:hover, .main-block__fca--header span a::after:hover, .main-block__marketing--header span a::after:hover {
+      .main-block__intro--header span a::after:hover, .main-block__movie-vue--header span a::after:hover, .main-block__contact--header span a::after:hover, .main-block__remote-dir--header span a::after:hover, .main-block__fca--header span a::after:hover, .main-block__marketing--header span a::after:hover, .main-block__daily-nclex--header span a::after:hover {
         background-image: url("../../images/external_link_yellow.svg") !important; }
   .main-block__contact--end {
     padding-bottom: 50px; }
@@ -446,6 +446,18 @@ body {
 
 .remote-dot {
   background: #FF747B;
+  -webkit-transition: background-color 0.1s linear;
+  -moz-transition: background-color 0.1s linear;
+  -o-transition: background-color 0.1s linear; }
+
+.highlight-dailynclex {
+  background: rgba(253, 224, 175, 0.2);
+  -webkit-transition: background-color 0.3s linear;
+  -moz-transition: background-color 0.3s linear;
+  -o-transition: background-color 0.3s linear; }
+
+.dailynclex-dot {
+  background: #FDE0AF;
   -webkit-transition: background-color 0.1s linear;
   -moz-transition: background-color 0.1s linear;
   -o-transition: background-color 0.1s linear; }

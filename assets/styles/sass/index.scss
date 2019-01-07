@@ -431,7 +431,7 @@ body {
       margin-top: 50px;
     }
   }
-  &__intro, &__movie-vue, &__contact, &__remote-dir, &__fca, &__marketing {
+  &__intro, &__movie-vue, &__contact, &__remote-dir, &__fca, &__marketing, &__daily-nclex {
     margin-bottom: 30px;
     color: #333333;
     @media only screen and (max-width: 425px) {
@@ -526,6 +526,19 @@ body {
   -moz-transition: background-color 0.1s linear;
   -o-transition: background-color 0.1s linear;
 }
+.highlight-dailynclex {
+ background: rgba(253, 224, 175, 0.2);
+ -webkit-transition:background-color 0.3s linear;
+ -moz-transition: background-color 0.3s linear;
+ -o-transition: background-color 0.3s linear;
+}
+.dailynclex-dot {
+  background: #FDE0AF;
+  -webkit-transition:background-color 0.1s linear;
+  -moz-transition: background-color 0.1s linear;
+  -o-transition: background-color 0.1s linear;
+}
+
 .highlight-movie-vue {
  background: rgba(0, 162, 230, 0.1);
  -webkit-transition:background-color 0.3s linear;
