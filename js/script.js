@@ -34,7 +34,7 @@ $(".background").scroll(function() {
           $("#simona-golebiewski").hide();
           $("#contact, #movie-vue, #fca, #marketing, #daily-nclex").hide();
           $(this).addClass('highlight-remote');
-          $(status).removeClass('movie-vue-dot fca-dot');
+          $(status).removeClass('fca-dot dailynclex-dot');
           $(status).addClass('remote-dot');
         } else {
           $(this).removeClass('highlight-remote');
@@ -58,7 +58,7 @@ $(".background").scroll(function() {
           $("#simona-golebiewski").hide();
           $("#contact, #remote-dir, #fca, #marketing, #daily-nclex").hide();
           $(this).addClass('highlight-movie-vue');
-          $(status).removeClass('marketing-dot remote-dot');
+          $(status).removeClass('marketing-dot dailynclex-dot');
           $(status).addClass('movie-vue-dot');
         } else {
           $(this).removeClass('highlight-movie-vue');
